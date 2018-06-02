@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="000style.xsl"?>
+<teiCorpus>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digitised and Encoded copy of Negro Slavery by Zachary MacAulay</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Transcribed from digital copy available from Recovered Histories at
+                    http://www.recoveredhistories.org/pamphlet1.php?page=1&amp;orderby=MaxID&amp;catid=66</authority>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title>Negro Slavery; or, A View of Some of the More Prominent Features of
+                            that State of Society, as it Exists in the United States of America and
+                            in the Colonies of the West Indies, Especially in Jamaica</title>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Printed for Hatchard and Son, Piccadilly, and J. and A. Arch,
+                            Cornhill</publisher>
+                        <distributor>Sold Also by W. Graphel, Church street, and G. and J. Robison,
+                            Castle Street, Liverpool.</distributor>
+                        <date when="1823">1823</date>
+                        <pubPlace>
+                            <settlement>London</settlement>
+                        </pubPlace>
+                    </publicationStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title/>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>Transcribed by a student of Digital History at Sheffield Hallam
+                        University</authority>
+                </publicationStmt>
+                <sourceDesc>
+                    <bibl>
+                        <biblScope>2</biblScope>
+                    </bibl>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <p>or statistics of the <placeName key="United States" ref="https://tools.wmflabs.org/geohack/geohack.php?params=39_32_47_N_102_36_13_W">United States</placeName>.  Neither is it our object to discuss the much-agitated question of the advantages of emigrating to that lands of large promise, and, as some allege, of lean performance.  We mean to devote the present article to the consideration of a single feature in the picture of American society given by our authors, and on which, as it stands revealed to us in these volumes in all its deformity, we are anxioues to fix the regards of our readers.  We allude to the NEGRO SLAVERY which pervades a great part of the United States.</p>
+                <p>The most copious view both of the legal and actual condition of the slave, as it exists in the United States, is to be found in the work of Mr. Hall.  It is true, as this intelligent writer observes, that information on their actual state, whether in law or fact, is little attainable by a cursory traveller.  The planter, of course, will not present himself for examination, with his memorandum book of the strpes and tortures he has inflicted, and of the groans which have followed.  If <persName key="Hall, Francis" from="1821" to="1871" role="Lieutenant" ref="https://en.wikipedia.org/wiki/Charles_Francis_Hall">he </persName>affords any information at all on the subject, it passes through a doubly distorted medium.  As a planter, he is interested in concealing the evils, and still more the enormities, of Negro servitude; while, as an American, he is naturally anxious to vindicate the national character in the eyes of a foreigner.  Add to this, that the testimony of the slave himself would gain no credit from the enemies to his freedom; whilst it is almost impossible that the passing traveller, or the occasional guest, should himself witnessmuch of the practical operation of a system, the most odious and frightful part of which is necessarily withdrawn from the public eye.  In general, therefore, the traveller has it only in <persName key="Hall, Francis" from="1821" to="1871" role="Lieutenant" ref="https://en.wikipedia.org/wiki/Charles_Francis_Hall">his </persName>power to delineate such <interp key="passes through a medium however it is safe to assume the traveller is experienced enough to come to their own conclusion regarding slavery and what they observe." n="citation" cert="medium" ref="http://www.website.com/webpage.html">broad outlines</interp> as are imcapable of concealment, leaving them to be filled up by means of those fair inductions which, on the admitted principles of human nature, we are authorise to draw from the</p>
+            </body>
+        </text>
+    </TEI>
+</teiCorpus>
