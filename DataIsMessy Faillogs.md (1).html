@@ -1,0 +1,68 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>DataIsMessy Faillogs.md</title><style></style></head><body id="preview">
+<h1><a id="Faillogs_0"></a>Faillogs</h1>
+<h2><a id="June_6_2018_2"></a>June 6, 2018</h2>
+<p>jordenlee<br>
+26 May 2018<br>
+in hist3814o</p>
+<p>EXERCISE 1 - STEP 1</p>
+<ol>
+<li>Using control find was crucial to locating the required lines for extraction</li>
+<li>Following the steps and watching the videos havenet mangled my data yet. Was a little unsure about the first regex expression and thus I didn’t touch it other than clicking around.<br>
+STEP 3</li>
+<li>Following code in step 3 produced an error.<br>
+sed -r -i.bak ‘s/(,)( [0-9]{4}(.+)/\2/g’ index.txt</li>
+</ol>
+<p>sed: -e expression #1, char 24: Unmatched ( or (<br>
+turns out i was missing a bracket and through the decomposition and the understanding of what is going on, i believe the code is more or less saying</p>
+<ol>
+<li>look forthe the comma</li>
+<li>look for 4 digits between 0-9 and 2 characters afterwards</li>
+</ol>
+<p>Thus without the bracket in the middle, the machine did not understand the command<br>
+STEP 5<br>
+still have yet to mangle the data as i have successfully converted “to” to a comma<br>
+thus far the commands in sequence reads<br>
+2 grep ‘\bto\b’ texas.txt<br>
+3 sed -r -i.bak ‘s/(.+\bto\b.+)/~\1/g’ texas.txtg e001518078.jpg<br>
+4 <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="78140b38491a404f484c194c1c4d1d1a">[email&#160;protected]</a>:~$ nano index.txt<br>
+5 nano texas.txt<br>
+6 grep ‘~’ texas.txt &gt; index.txt<br>
+7 ls<br>
+8 nano index.txt<br>
+9 sed -r -i.bak ‘s/(,)( [0-9]{4}(.+)/\2/g’ index.txt<br>
+10 sed -r -i.bak ‘s/(,)( [0-9]{4}(.+)/\2/g’ index.tx<br>
+11 sed -r -i.bak ‘s/(,)( [0-9]{4})(.+)/\2/g’ index.txt<br>
+12 nano index.txt<br>
+13 sed -r -i.bak ‘s/~//g’ index.txt<br>
+14 nano index.txt<br>
+15 sed -r -i.bak ‘s/(\b to \b)/,/g’ index.txt<br>
+16 nano index.txt<br>
+17 history</p>
+<p>Step 6-</p>
+<pre><code>2  grep '\bto\b' texas.txt
+3  sed -r -i.bak 's/(.+\bto\b.+)/~\1/g' texas.txt
+4  ls
+5  nano texas.txt
+6  grep '~' texas.txt &gt; index.txt
+7  ls
+8  nano index.txt
+9  sed -r -i.bak 's/(,)( [0-9]{4}(.+)/\2/g' index.txt
+</code></pre>
+<p>10 sed -r -i.bak ‘s/(,)( [0-9]{4}(.+)/\2/g’ index.tx<br>
+11 sed -r -i.bak ‘s/(,)( [0-9]{4})(.+)/\2/g’ index.txt<br>
+12 nano index.txt<br>
+13 sed -r -i.bak ‘s/~//g’ index.txt<br>
+14 nano index.txt<br>
+15 sed -r -i.bak ‘s/(\b to \b)/,/g’ index.txt<br>
+16 nano index.txt<br>
+17 history<br>
+18 nano index.txt<br>
+19 cp index.txt cleaned-correspondence.csv<br>
+20 ls<br>
+21 history</p>
+<h1><a id="Open_Refine_63"></a>Open Refine</h1>
+<p>Downloaded the 2.8 version…once extracted there is nothing with the exe extension however if you click the icon and catch the window, it opens the webpage<br>
+Upon opening the “cleaned” file, the columns needed to be separated by a comma. Click the comma radio button (CSV)<br>
+The cleaning process is an extremely iterative thing where it requires full attention to ensure accuracy. Programs such as Refine and regex definitely help in locating errors or potential errors as they can comb through data and group them to find what you “may” be looking for, or what “may” be similar based on character recognition or context.<br>
+The more you play around in cleaning data the easier and more efficient it becomes. But, it does not change the fact that it can be a gruelling, iterative process.</p>
+<script data-cfasync="false" src="/cdn-cgi/scripts/f2bf09f8/cloudflare-static/email-decode.min.js"></script></body></html>
